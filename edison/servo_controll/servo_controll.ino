@@ -19,9 +19,9 @@ int i;
 
 // 押し始め
 void start_push(){
+  push_now = 1;
   for(pos = PUSH_MIN; pos <= PUSH_MAX; pos += STEP_DEG) // PUSH_MIN度からPUSH_MAX度まで, STEP_DEG度ずつ押す 
   {
-    push_now = 1;
     myservo.write(pos);
     delay(STEP_INTERVAL);                               // 1STEP_DEG度の移動につきSTEP_INTERVAL msだけかける
   } 
@@ -29,9 +29,9 @@ void start_push(){
 
 // 押し終わり
 void end_push(){
+  push_now = 0; 
   for(pos = PUSH_MAX; pos>=PUSH_MIN; pos-= STEP_DEG)    // PUSH_MAX度からPUSH_MIN度まで, STEP_DEG度ずつ緩める 
-  { 
-    push_now = 0;                        
+  {                        
     myservo.write(pos);
     delay(STEP_INTERVAL);                               // 1STEP_DEG度の移動につきSTEP_INTERVAL msだけかける
   } 
