@@ -1,5 +1,7 @@
 var request = require('request');
+var strings;
 
+exports.get = function() {
 request({
 	method: 'GET',
 	url: 'https://0t9rg.cybozu.com/k/v1/records.json',
@@ -14,5 +16,8 @@ request({
 		"query": "limit 1"
 	}
 }, function(err, response, body ){
-	console.log(JSON.stringify(body));
+	strings = JSON.stringify(body);
 });
+
+return strings;
+}
