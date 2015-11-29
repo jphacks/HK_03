@@ -61,10 +61,10 @@ kintoneを介して音声認識を行うことで，音声データのログを�
 ### 活用した技術
 #### API・データ
 Google Web Speech API : 日本語の発話文の文章化
-https://developers．google．com/web/updates/2013/01/Voice-Driven-Web-Apps-Introduction-to-the-Web-Speech-API?hl=en
+https://developers.google.com/web/updates/2013/01/Voice-Driven-Web-Apps-Introduction-to-the-Web-Speech-API?hl=en
 
-kintone API : 日本語解析結果の蓄積， 及びEdisonへの
-https://cybozudev．zendesk．com/hc/ja/categories/200147600-kintone-API
+kintone API : 日本語解析結果の蓄積， 及びEdisonへのDB受け渡し
+https://cybozudev.zendesk.com/hc/ja/categories/200147600-kintone-API
 
 #### フレームワーク・ライブラリ・モジュール
 * kintone参考資料 : https://github.com/joyzo/kintone-Cafe-Tokyo-3
