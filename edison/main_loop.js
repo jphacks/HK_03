@@ -22,7 +22,7 @@ function startKintoneGet() {
       strings = kintone_get.get();
       console.log(strings);
       if( strings != null ){
-        if( strings.indexOf('part') ){
+        if( strings.indexOf(‘1’) ){
           servo.push();
           console.log("PUSH!!!");
         }else{
