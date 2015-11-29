@@ -53,7 +53,10 @@ kintone に蓄積しているので, 後で時系列のグラフ表示が可能�
 ユーザがより愛着をもって用いられるインターフェースにできます.
 
 ### 注力したこと（こだわり等）
-* ハード部分：ベルトに通してある糸をサーボで引っ張り，ユーザの腕に突起物を食い込ませるという原始的な方法を取っているが，腕に物体が食い込みつつも，どこか気持ちの良いフィードバックを実装することができた．
+* ハード部分：
+ベルトに通してある糸をサーボで引っ張り，ユーザの腕に突起物を食い込ませるという原始的な方法を取っているが，腕に物体が食い込みつつも，どこか気持ちの良いフィードバックを実装することができた．
+
+* ソフト部分：
 
 *
 *
@@ -63,8 +66,7 @@ kintone に蓄積しているので, 後で時系列のグラフ表示が可能�
 #### API・データ
 Google Web Speech API : 日本語の発話文の文章化
 https://developers.google.com/web/updates/2013/01/Voice-Driven-Web-Apps-Introduction-to-the-Web-Speech-API?hl=en
-bluemix API : 日本語の文章解析プログラムのオンライン起動
-https://www.ng.bluemix.net/docs/
+
 kintone API : 日本語解析結果の蓄積, 及びEdisonへの
 https://cybozudev.zendesk.com/hc/ja/categories/200147600-kintone-API
 *
@@ -73,9 +75,9 @@ https://cybozudev.zendesk.com/hc/ja/categories/200147600-kintone-API
 *
 *
 #### デバイス
-Edison : ボタンを押して定期的にクエリを受信
-ツボ押しデバイス : サーボで巻き取るバンドの内側の凸部分でツボ押し
-Smartphone : ウェブアプリの起動とマイク受付
+* Edison : ボタンを押して定期的にクエリを受信
+* ツボ押しデバイス : サーボで巻き取るバンドの内側の凸部分でツボ押し
+* Smartphone : ウェブアプリの起動とマイク受付
 *
 *
 
