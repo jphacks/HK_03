@@ -1,5 +1,4 @@
-# サンプル（プロダクト名）
-Interjection Killer
+# Interjection Killer
 
 ## 製品概要
 プレゼンテーションの途中で入った間投詞(えーっと， あー)を，
@@ -58,9 +57,6 @@ kintoneを介して音声認識を行うことで，音声データのログを�
 
 このようにユーザに対して，リアルタイムの通知とデータのログからの情報の２つのフィードバックを行っている点が私達のシステムの特徴的な点です．
 
-*
-*
-
 ## 開発技術
 ### 活用した技術
 #### API・データ
@@ -69,8 +65,7 @@ https://developers．google．com/web/updates/2013/01/Voice-Driven-Web-Apps-Intr
 
 kintone API : 日本語解析結果の蓄積， 及びEdisonへの
 https://cybozudev．zendesk．com/hc/ja/categories/200147600-kintone-API
-*
-*
+
 #### フレームワーク・ライブラリ・モジュール
 *
 *
